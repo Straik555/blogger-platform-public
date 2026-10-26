@@ -1,0 +1,22 @@
+# dependencies & build output — installed/built inside the image
+node_modules
+dist
+coverage
+
+# secrets — never bake env files into an image
+.env
+.env.*
+
+# not needed at runtime
+test
+.git
+.github
+.idea
+.run
+.vscode
+webstorm
+Claude outputs
+*.md
+docker-compose.yml
+dockerfile
+.dockerignore
